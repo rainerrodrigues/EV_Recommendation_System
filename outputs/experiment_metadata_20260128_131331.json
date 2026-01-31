@@ -1,0 +1,103 @@
+{
+  "experiment_name": "ev_efficiency_20260128_131250",
+  "timestamp": "20260128_131331",
+  "best_model": "Logistic Regression",
+  "feature_strategy": "optimal",
+  "feature_names": [
+    "range_efficiency",
+    "range_km",
+    "speed_efficiency",
+    "range_per_seat",
+    "battery_kwh",
+    "price_usd",
+    "type",
+    "drive_type",
+    "fuel_type",
+    "country"
+  ],
+  "data_splits": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "validation_results": {
+    "Logistic Regression": {
+      "train_accuracy": 0.8053069898340129,
+      "train_roc_auc": 0.8856464522484432,
+      "val_accuracy": 0.8079335298847494,
+      "val_roc_auc": 0.8867791371906201,
+      "val_precision": 0.8078057148984078,
+      "val_recall": 0.8079789801061719,
+      "val_f1": 0.8078923382124283,
+      "cv_roc_auc_mean": 0.8856114687063478,
+      "cv_roc_auc_std": 0.0018188137047518151,
+      "overfitting_gap": 0.001132684942176887
+    },
+    "Random Forest": {
+      "train_accuracy": 0.8083855034173798,
+      "train_roc_auc": 0.8921792378075244,
+      "val_accuracy": 0.8071294559099437,
+      "val_roc_auc": 0.8861282603249079,
+      "val_precision": 0.8113412711357582,
+      "val_recall": 0.800203764276905,
+      "val_f1": 0.8057340316397603,
+      "cv_roc_auc_mean": 0.8848044248813514,
+      "cv_roc_auc_std": 0.0016889141196066684,
+      "overfitting_gap": 0.006050977482616515
+    },
+    "XGBoost": {
+      "train_accuracy": 0.8091953362816611,
+      "train_roc_auc": 0.8921162687576794,
+      "val_accuracy": 0.8059501474135621,
+      "val_roc_auc": 0.8858806934438122,
+      "val_precision": 0.8090027625805752,
+      "val_recall": 0.8008472304144995,
+      "val_f1": 0.804904338453247,
+      "cv_roc_auc_mean": 0.8847385866264954,
+      "cv_roc_auc_std": 0.0019017848095939408,
+      "overfitting_gap": 0.006235575313867203
+    },
+    "LightGBM": {
+      "train_accuracy": 0.8078341278502096,
+      "train_roc_auc": 0.8896395968812832,
+      "val_accuracy": 0.8065398016617529,
+      "val_roc_auc": 0.886250129303413,
+      "val_precision": 0.810102544625902,
+      "val_recall": 0.800632741701968,
+      "val_f1": 0.8053398058252427,
+      "cv_roc_auc_mean": 0.8850709566143978,
+      "cv_roc_auc_std": 0.0018860988399600966,
+      "overfitting_gap": 0.0033894675778702865
+    }
+  },
+  "test_results": {
+    "Logistic Regression": {
+      "accuracy": 0.803350308228357,
+      "roc_auc": 0.8843985291425908,
+      "precision": 0.8045116829977388,
+      "recall": 0.8012762078395624,
+      "f1": 0.8028906858662654
+    },
+    "Random Forest": {
+      "accuracy": 0.8038863575448941,
+      "roc_auc": 0.8837686747223648,
+      "precision": 0.8091107474086198,
+      "recall": 0.7952705238886804,
+      "f1": 0.8021309391816978
+    },
+    "XGBoost": {
+      "accuracy": 0.8032699008308765,
+      "roc_auc": 0.8838977489745243,
+      "precision": 0.8078284065545212,
+      "recall": 0.7956995013137433,
+      "f1": 0.8017180830947107
+    },
+    "LightGBM": {
+      "accuracy": 0.8031894934333959,
+      "roc_auc": 0.8841087622021166,
+      "precision": 0.8085025103689151,
+      "recall": 0.7944125690385544,
+      "f1": 0.8013956130149028
+    }
+  }
+}
