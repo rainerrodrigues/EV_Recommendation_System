@@ -47,7 +47,7 @@ This project was designed as a portfolio-grade machine learning application with
 ## Team Members & Contributions
 | Name | Contribution |
 |------|----------------|
-| Aarushi Jain | ML model development: training multiple models, evaluating metrics, saving best model, creating predict.py, documentation|
+| Aarushi Jain | ML model development: training multiple models, evaluating metrics, saving best model, documentation|
 | Sowmya Reddy | |
 | AL Musheer | |
 | Sai Chaithanya Reddy Yudururi| |
