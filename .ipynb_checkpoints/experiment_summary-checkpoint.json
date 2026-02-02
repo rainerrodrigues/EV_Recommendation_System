@@ -1,0 +1,71 @@
+{
+  "best_model": "Logistic Regression",
+  "features": [
+    "range_km",
+    "battery_kwh",
+    "price_usd",
+    "range_efficiency",
+    "speed_efficiency",
+    "range_per_seat",
+    "type",
+    "drive_type",
+    "fuel_type",
+    "country"
+  ],
+  "validation_metrics": {
+    "train_accuracy": {
+      "Logistic Regression": 0.8053069898340129,
+      "Random Forest": 0.8085118603181897,
+      "XGBoost": 0.8091953362816611,
+      "LightGBM": 0.8076388490035036
+    },
+    "train_roc_auc": {
+      "Logistic Regression": 0.8856464522484432,
+      "Random Forest": 0.8922676469391057,
+      "XGBoost": 0.8918691147537662,
+      "LightGBM": 0.8897198292089565
+    },
+    "val_accuracy": {
+      "Logistic Regression": 0.8079335298847494,
+      "Random Forest": 0.8067810238541946,
+      "XGBoost": 0.806325381935138,
+      "LightGBM": 0.806512999195926
+    },
+    "val_roc_auc": {
+      "Logistic Regression": 0.8867791371906201,
+      "Random Forest": 0.8861562682221406,
+      "XGBoost": 0.885955498982815,
+      "LightGBM": 0.8861539766146672
+    },
+    "val_precision": {
+      "Logistic Regression": 0.8078057148984078,
+      "Random Forest": 0.8113433485739169,
+      "XGBoost": 0.8085129368551829,
+      "LightGBM": 0.8098568640208198
+    },
+    "val_recall": {
+      "Logistic Regression": 0.8079789801061719,
+      "Random Forest": 0.799292187248646,
+      "XGBoost": 0.8026167622928844,
+      "LightGBM": 0.8009544747707652
+    },
+    "val_f1": {
+      "Logistic Regression": 0.8078923382124283,
+      "Random Forest": 0.80527268307177,
+      "XGBoost": 0.8055540605995372,
+      "LightGBM": 0.8053810692044321
+    },
+    "cv_roc_auc_mean": {
+      "Logistic Regression": 0.8856114687063478,
+      "Random Forest": 0.8847580137667179,
+      "XGBoost": 0.8846952018056274,
+      "LightGBM": 0.8849875144470196
+    },
+    "cv_roc_auc_std": {
+      "Logistic Regression": 0.0018188137047518151,
+      "Random Forest": 0.001786797069594841,
+      "XGBoost": 0.0018858678353407597,
+      "LightGBM": 0.0018905901571929656
+    },
+    "val_predictions": {
+      "Logistic Regression": 
