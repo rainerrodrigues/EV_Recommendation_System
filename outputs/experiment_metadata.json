@@ -1,6 +1,6 @@
 {
-  "experiment_name": "ev_efficiency_20260201_173841",
-  "timestamp": "20260201_173841",
+  "experiment_name": "ev_efficiency_20260202_002253",
+  "timestamp": "20260202_002253",
   "best_model": "Logistic Regression",
   "feature_strategy": "optimal",
   "feature_names": [
@@ -22,82 +22,82 @@
   },
   "validation_results": {
     "Logistic Regression": {
-      "train_accuracy": 0.8053069898340129,
-      "train_roc_auc": 0.8856464522484432,
-      "val_accuracy": 0.8079335298847494,
-      "val_roc_auc": 0.8867791371906201,
-      "val_precision": 0.8078057148984078,
-      "val_recall": 0.8079789801061719,
-      "val_f1": 0.8078923382124283,
-      "cv_roc_auc_mean": 0.8856114687063478,
-      "cv_roc_auc_std": 0.0018188137047518151,
-      "overfitting_gap": 0.001132684942176887
+      "train_accuracy": 0.8053759117799093,
+      "train_roc_auc": 0.8856681218970837,
+      "val_accuracy": 0.8077459126239614,
+      "val_roc_auc": 0.8867405950827322,
+      "val_precision": 0.8079317376838038,
+      "val_recall": 0.8072818917904445,
+      "val_f1": 0.8076066840114797,
+      "cv_roc_auc_mean": 0.8855823121596836,
+      "cv_roc_auc_std": 0.0018217712989431558,
+      "overfitting_gap": 0.0010724731856485148
     },
     "Random Forest": {
-      "train_accuracy": 0.8085118603181897,
-      "train_roc_auc": 0.8922676469391057,
-      "val_accuracy": 0.8067810238541946,
-      "val_roc_auc": 0.8861562682221406,
-      "val_precision": 0.8113433485739169,
-      "val_recall": 0.799292187248646,
-      "val_f1": 0.80527268307177,
-      "cv_roc_auc_mean": 0.8847580137667179,
-      "cv_roc_auc_std": 0.001786797069594841,
-      "overfitting_gap": 0.006111378716965099
+      "train_accuracy": 0.8071276779047728,
+      "train_roc_auc": 0.8895805049468956,
+      "val_accuracy": 0.8075046904315197,
+      "val_roc_auc": 0.8842204532826018,
+      "val_precision": 0.814112748589273,
+      "val_recall": 0.7968255670545338,
+      "val_f1": 0.8053764023630156,
+      "cv_roc_auc_mean": 0.8825357528672898,
+      "cv_roc_auc_std": 0.0018285874653661514,
+      "overfitting_gap": 0.0053600516642937635
     },
     "XGBoost": {
-      "train_accuracy": 0.8091953362816611,
-      "train_roc_auc": 0.8918691147537662,
-      "val_accuracy": 0.806325381935138,
-      "val_roc_auc": 0.885955498982815,
-      "val_precision": 0.8085129368551829,
+      "train_accuracy": 0.8092010797771524,
+      "train_roc_auc": 0.8918797472312684,
+      "val_accuracy": 0.8065398016617529,
+      "val_roc_auc": 0.886050167514495,
+      "val_precision": 0.80886246960281,
       "val_recall": 0.8026167622928844,
-      "val_f1": 0.8055540605995372,
-      "cv_roc_auc_mean": 0.8846952018056274,
-      "cv_roc_auc_std": 0.0018858678353407597,
-      "overfitting_gap": 0.005913615770951175
+      "val_f1": 0.8057275125154761,
+      "cv_roc_auc_mean": 0.8847642761619785,
+      "cv_roc_auc_std": 0.0019319188457596066,
+      "overfitting_gap": 0.0058295797167734476
     },
     "LightGBM": {
-      "train_accuracy": 0.8076388490035036,
-      "train_roc_auc": 0.8897198292089565,
-      "val_accuracy": 0.806512999195926,
-      "val_roc_auc": 0.8861539766146672,
-      "val_precision": 0.8098568640208198,
-      "val_recall": 0.8009544747707652,
-      "val_f1": 0.8053810692044321,
-      "cv_roc_auc_mean": 0.8849875144470196,
-      "cv_roc_auc_std": 0.0018905901571929656,
-      "overfitting_gap": 0.0035658525942893204
+      "train_accuracy": 0.8077077709493998,
+      "train_roc_auc": 0.8896646291025597,
+      "val_accuracy": 0.8061109622085232,
+      "val_roc_auc": 0.8862768268896639,
+      "val_precision": 0.8090313498294439,
+      "val_recall": 0.8012225856614296,
+      "val_f1": 0.8051080338380301,
+      "cv_roc_auc_mean": 0.8849641515385434,
+      "cv_roc_auc_std": 0.0019062594603977306,
+      "overfitting_gap": 0.0033878022128958074
     }
   },
   "test_results": {
     "Logistic Regression": {
-      "test_accuracy": 0.803350308228357,
-      "test_roc_auc": 0.8843985291425908,
-      "test_precision": 0.8045116829977388,
-      "test_recall": 0.8012762078395624,
-      "test_f1": 0.8028906858662654
+      "test_accuracy": 0.8034307156258376,
+      "test_roc_auc": 0.8843601594440424,
+      "test_precision": 0.8046088407903946,
+      "test_recall": 0.8013298300176953,
+      "test_f1": 0.802965987856644
     },
     "Random Forest": {
-      "test_accuracy": 0.803350308228357,
-      "test_roc_auc": 0.883703820075751,
-      "test_precision": 0.8091048201989288,
-      "test_recall": 0.7938763472572256,
-      "test_f1": 0.8014182477603053
+      "test_accuracy": 0.8037791476815868,
+      "test_roc_auc": 0.8813343582915324,
+      "test_precision": 0.8115511551155116,
+      "test_recall": 0.7911416161724489,
+      "test_f1": 0.8012164327024899
     },
     "XGBoost": {
-      "test_accuracy": 0.8027606539801662,
-      "test_roc_auc": 0.8838578735677428,
-      "test_precision": 0.8066268332428028,
-      "test_recall": 0.796289345273205,
-      "test_f1": 0.8014247551202137
+      "test_accuracy": 0.8038327526132404,
+      "test_roc_auc": 0.8840611441792383,
+      "test_precision": 0.8080813574070046,
+      "test_recall": 0.7967719448764009,
+      "test_f1": 0.8023868023868024
     },
     "LightGBM": {
-      "test_accuracy": 0.8032967032967033,
-      "test_roc_auc": 0.8840160189080634,
-      "test_precision": 0.8083760497327953,
-      "test_recall": 0.7948951686417502,
-      "test_f1": 0.8015789331386703
+      "test_accuracy": 0.8032162958992227,
+      "test_roc_auc": 0.884052471989452,
+      "test_precision": 0.80774046050841,
+      "test_recall": 0.7956995013137433,
+      "test_f1": 0.8016747703943814
     }
   }
 }
