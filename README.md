@@ -31,15 +31,12 @@ Python: 3.11
 
 📦 Docker Repository
 
-🔗 Docker Hub Image:
-👉 https://hub.docker.com/r/musheer/ev-efficiency-predictor
 
 Pull Image
-docker pull musheer/ev-efficiency-predictor
+docker pull mohdmusheer/ev-efficiency-api-g1
 
 Run Container
-docker run -d -p 8000:8000 musheer/ev-efficiency-predictor
-
+docker run -d -p 8000:8000 mohdmusheer/ev-efficiency-api-g1
 Open in Browser
 
 Web App: http://localhost:8000
