@@ -68,15 +68,8 @@ with open(PREPROCESSOR_PATH, 'rb') as f:
 def engineer_features(df):
     df = df.copy()
     df['range_efficiency'] = df['range_km'] / (df['battery_kwh'] + 0.001)
-    df['battery_range_ratio'] = df['battery_kwh'] / (df['range_km'] + 0.001)
-    df['charging_speed'] = df['battery_kwh'] / (df['charging_time_hr'] + 0.001)
-    df['power_indicator'] = 100 / (df['acceleration_0_100_kmph'] + 0.001)
     df['speed_efficiency'] = df['range_km'] / (df['top_speed_kmph'] + 0.001)
-    df['vehicle_age'] = 2026 - df['release_year']
-    df['price_per_kwh'] = df['price_usd'] / (df['battery_kwh'] + 0.001)
     df['range_per_seat'] = df['range_km'] / (df['seats'] + 0.001)
-    df['is_electric'] = (df['fuel_type'] == 'Electric').astype(int)
-    df['has_fast_charging'] = df['fast_charging'].astype(int)
 
     return df
 
