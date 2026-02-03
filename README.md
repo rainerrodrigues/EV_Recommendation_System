@@ -14,7 +14,7 @@
 
 🛠 Tech Stack
 
-
+[![Render](https://img.shields.io/badge/Render-Deployed-success?style=for-the-badge&logo=render)](https://ev-recommendation-system.onrender.com)
 
 Docker Hub: https://hub.docker.com/r/mohdmusheer/ev-efficiency-api-g1
 
@@ -40,6 +40,9 @@ docker run -d -p 8000:8000 mohdmusheer/ev-efficiency-api-g1
 Open in Browser
 
 Web App: http://localhost:8000
+
+## 🚀 Demo
+Check out the live version of the app here: [EV Recommendation System Live](https://ev-recommendation-system.onrender.com)
 
 Swagger API Docs: http://localhost:8000/docs
 
