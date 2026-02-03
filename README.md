@@ -68,6 +68,38 @@ API Docs: http://localhost:8000/docs
 └── README.md           # Documentation
 ```
 
+## 🔗 API Usage
+```
+POST /predict
+```
+Send a JSON payload to receive an efficiency prediction.
+```JSON
+vehicle = {
+  "battery_kwh": 75.0,
+  "range_km": 500.0,
+  "charging_time_hr": 1.0,
+  "fast_charging": 1,
+  "release_year": 2024,
+  "seats": 5,
+  "price_usd": 45000,
+  "acceleration_0_100_kmph": 3.3,
+  "top_speed_kmph": 225,
+  "warranty_years": 4,
+  "cargo_space_liters": 425,
+  "safety_rating": 5.0,
+  "type": "Sedan",
+  "drive_type": "AWD",
+  "fuel_type": "Electric",
+  "country": "USA"
+}
+```
+
+Response:
+
+1 → High Efficiency
+
+0 → Low Efficiency
+
 ## 🎯 Target Use Cases
 1. Academic Portfolios: Demonstrating end-to-end ML deployment.
 2. Engineering Interviews: Highlights full-stack and hardware-adjacent software skills.
