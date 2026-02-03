@@ -12,7 +12,7 @@ An end-to-end Machine Learning solution designed to predict Electric Vehicle (EV
 
 
 ## 🚀 Live Demo
-**🌐 Web App:** [View Live Deployment on Render](https://ev-recommendation-system.onrender.com)  
+**🌐 Web App:** [View Live Deployment on Render](https://ev-efficiency-api-g1-latest.onrender.com)  
 **📑 API Documentation:** [Swagger UI (Local)](http://localhost:8000/docs)
 
 ---
