@@ -68,26 +68,6 @@ API Docs: http://localhost:8000/docs
 └── README.md           # Documentation
 ```
 
-## 🔗 API Usage
-```
-POST /predict
-```
-Send a JSON payload to receive an efficiency prediction. 
-```JSON
-{
-  "manufacturer": "Tesla",
-  "model": "Model 3",
-  "battery_kwh": 60,
-  "range_km": 450,
-  "charging_time_hr": 1.2,
-  "top_speed_kmph": 225,
-  "safety_rating": 5
-}
-```
-Response:
-1 → High Efficiency
-0 → Low Efficiency
-
 ## 🎯 Target Use Cases
 1. Academic Portfolios: Demonstrating end-to-end ML deployment.
 2. Engineering Interviews: Highlights full-stack and hardware-adjacent software skills.
